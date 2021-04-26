@@ -13,10 +13,47 @@ import {
   Img
 } from './InfoSection.elements';
 
-export const InfoSection = ({lightBg}) => {
+export const InfoSection = ({ 
+  primary,
+  lightBg, 
+  imgStart, 
+  lightTopLine, 
+  lightTextDesc, 
+  lightText, 
+  topLine, 
+  buttonLabel, 
+  description, 
+  headline,
+  img,
+  start,
+  alt 
+}) => {
   return (
     <>
-      <InfoSec lightBg={lightBg}>h1</InfoSec>        
+      <InfoSec lightBg={lightBg}>
+        <Container>
+          <InfoRow imgStart={imgStart}>
+            <InfoColumn>
+              <TextWrapper>
+                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
+                <Heading lightText={lightText}>{headline}</Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <Link to='/sign-up'>
+                  <Button big fontBig primary={primary}>
+                    {buttonLabel}
+                  </Button>
+                </Link>
+              </TextWrapper>
+            </InfoColumn>
+            <InfoColumn>
+              <ImgWrapper start={start}>
+                <Img src={img} alt={alt}>
+                </Img>
+              </ImgWrapper>
+            </InfoColumn>
+          </InfoRow>
+        </Container>  
+      </InfoSec>        
     </>
   )
 };
