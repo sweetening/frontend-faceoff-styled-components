@@ -55,8 +55,8 @@ export const homeObjectFour = {
   lightText: false, 
   topLine: 'Get More Money Back', 
   buttonLabel: "File My Return", 
-  description: 'We help taxpayers increase their tax return so they can enjoy their lives more. The average tax return using Fantastax is $1,120.', 
-  headline: 'Guaranteed to Get You 45% More Money Back',
+  description: 'We help taxpayers increase their tax return so they can enjoy their lives more. The average tax return using Fantastax is €1100.', 
+  headline: 'Guaranteed to Get You More Money Back',
   img: require('../../images/transactions.svg').default,
   alt: 'Illustration of money returning to customer bank accounts',
   start: 'true'
