@@ -8,7 +8,7 @@ export const homeObjectOne = {
   topLine: 'Tax Specialists', 
   buttonLabel: 'Get Started', 
   description: 'We help taxpayers increase their return. Our team of specialists will help you file your taxes every step of the way. No fuss. No stress.', 
-  headline: 'Lead Tax Specialists for Online Tax Filing',
+  headline: 'Premier Tax Experts for Online Tax Filing',
   img: require('../../images/revenue.svg').default,
   alt: 'Illustration of happy customers who filed their taxes with Fantastax',
   start: ''

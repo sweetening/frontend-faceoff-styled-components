@@ -55,7 +55,7 @@ const Navbar = () => {
                 <NavLinks to='/services'>Services</NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products'>Products</NavLinks>
+                <NavLinks to='/cards'>Pricing</NavLinks>
               </NavItem>
               <NavItemBtn>
                 {button ? (
