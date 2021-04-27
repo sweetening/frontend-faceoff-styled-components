@@ -7,7 +7,7 @@ const Card = () => {
     <>
       <Container>
       <h1 className={CardCSS.h1}>Pricing Strategies</h1>
-      <h3 className={CardCSS.h3}>Affordable options for every client</h3>
+      <h3 className={CardCSS.h3}>Affordable Options For Every Client</h3>
         <div className={CardCSS.grid}>
           <div className={CardCSS.card}>
             <h3 className={CardCSS.h3}>Free Trial</h3>
